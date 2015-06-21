@@ -17,4 +17,9 @@ class Controller_Oxygen extends Controller
 	{
 		return Response::forge(View::forge('oxygen/login'));
 	}
+	public function action_dashboard()
+	{
+		return Response::forge(view::forge('oxygen/dashboard'));
+	}
+	
 }
